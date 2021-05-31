@@ -1,0 +1,18 @@
+{
+  "name": "smarttv-exec",
+  "version": "1.0.5",
+  "description": "This packages is used as addon for SmartTVConnector. The goal is to automate SmartTV application build and deploy on SmartTV devices.",
+  "main": "smarttv-builder",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikola Popovic",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "zip-folder": "^1.0.0"
+  }
+}
